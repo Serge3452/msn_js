@@ -45,7 +45,11 @@ document.querySelector(".qwe").innerHTML = "Это наш первый выво�
 console.log (4) // месяц моего рождения
 console.log('Добро '+'пожаловать '+' на курс ' + ' Сергей') // вывод приветствия
 
-let date = new Date // вывод текуще  даты и времени
-alert( date);
+//let date = new Date // вывод текуще  даты и времени
+//alert( date);
 
-document.getElementById("one").innerHTML= "Hello World"
+//document.getElementById("one").innerHTML= "Hello World"
+//document.getElementById("one").innerHTML= 666
+//document.getElementById("one").innerHTML= "Hello World"
+
+document.querySelector("p").innerHTML = 666
