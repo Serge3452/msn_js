@@ -40,7 +40,7 @@
 
 // console.log(typeof 20);
 // console.log(typeof null);
-document.querySelector(".qwe").innerHTML = "Это наш первый вывод по средством JS";
+//document.querySelector(".qwe").innerHTML = "Это наш первый вывод по средством JS";
 
 console.log (4) // месяц моего рождения
 console.log('Добро '+'пожаловать '+' на курс ' + ' Сергей') // вывод приветствия
@@ -52,4 +52,31 @@ console.log('Добро '+'пожаловать '+' на курс ' + ' Серг
 //document.getElementById("one").innerHTML= 666
 //document.getElementById("one").innerHTML= "Hello World"
 
-document.querySelector("p").innerHTML = 666
+//let inp = document.querySelector(".text");
+//let btn = document.querySelector(".check");
+//let rty = document.querySelector(".rty")
+
+//btn.onclick = function () {
+//    console.log("Da");
+//    console.log(inp.value)
+//   rty.innerHTML = inp.value
+
+ //   };
+
+ //let dr = prompt("Когда у тебя ДР?");
+ //console.log(dr)
+ //if (dr==19) { 
+ //   alert("У тебя сегодня ДР")}
+//    else
+ //   {alert
+//    ("Приходи завтра")}
+//if(условие)
+//{действие выполнется если условие истинно
+//}
+let a100 = document.querySelector(".a100")
+let a = prompt("Введите число");
+
+ if (a>100) { 
+    a100.innerHTML=(a)}
+    else { 
+     console.log(a)}
