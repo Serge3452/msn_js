@@ -1,82 +1,58 @@
-//console.log("Hello World Группа")
-//console.log(666);
-//console.log("Hello" + " World");
+// Урок 4 
+// Домашнее задание #1:
+let a = +prompt( "Введите переменную A");
+let b = +prompt("Введите переменную B");
+let rez = a+b >=15 ? console.log("Да") : console.log("Нет"); 
 
-// let a = 1;
-// console.log(1 + "qwe");
-// тип данных Number
-// спец значения NaN Infinity
+// Домашнее задание #2:
+let c = prompt( "Введите переменную C");
+let d = prompt("Введите переменную D");
+console.log (c===d);
 
-// Bigint
+// Урок 4
 
-// console.log(98n);
 
-// sring строка
 
-// let a = "Anime ";
-// let b = "JOjO";
-// let c = `Naruto ${a + b}`;
-// console.log(a);
-// console.log(b);
-// console.log(c);
+// Возведение в степень
 
-// boolean логические
-// let DotCheck = true;
-// let DockUnCheck = false;
-// console.log(DockUnCheck);
-// console.log(DotCheck);
+//console.log(2**4) 
+////console.log(Math.pow(2,4));
 
-// console.log(1 < 2);
+// Остаток от деления
+//console.log(10%53)
 
-// Null
-// let nuller = null;
-// console.log(nuller);
 
-// undefined
-// let a = undefined;
-// console.log(a);
+// Операторы сравнения: < > >= <= == = !=
+//console.log(5 != 5);
+//console.log("lets" < "qwe");
+//console.log( 1 == "1");
+//console.log(true == 1);
+//console.log(false == 0);
+//console.log(1 === "1");
 
-//
 
-// console.log(typeof 20);
-// console.log(typeof null);
-//document.querySelector(".qwe").innerHTML = "Это наш первый вывод по средством JS";
-
-console.log (4) // месяц моего рождения
-console.log('Добро '+'пожаловать '+' на курс ' + ' Сергей') // вывод приветствия
-
-//let date = new Date // вывод текуще  даты и времени
-//alert( date);
-
-//document.getElementById("one").innerHTML= "Hello World"
-//document.getElementById("one").innerHTML= 666
-//document.getElementById("one").innerHTML= "Hello World"
-
-//let inp = document.querySelector(".text");
-//let btn = document.querySelector(".check");
-//let rty = document.querySelector(".rty")
-
-//btn.onclick = function () {
-//    console.log("Da");
-//    console.log(inp.value)
-//   rty.innerHTML = inp.value
-
- //   };
-
- //let dr = prompt("Когда у тебя ДР?");
- //console.log(dr)
- //if (dr==19) { 
- //   alert("У тебя сегодня ДР")}
-//    else
- //   {alert
-//    ("Приходи завтра")}
-//if(условие)
-//{действие выполнется если условие истинно
+//  Логические операторы  ИЛИ || 
+//let a=0;
+//console.log(a>2 || a==1);
+ // true || true || true
+ // falce || true || true
+// true || false || true
+// false || false || false
+//let b=5;
+//if (b<5 || b>5|| b==5){
+//    console.log((true));
 //}
-let a100 = document.querySelector(".a100")
-let a = prompt("Введите число");
+//  Оператор И  &&
 
- if (a>100) { 
-    a100.innerHTML=(a)}
-    else { 
-     console.log(a)}
+// true || true || true
+// falce || true || false
+// true || false || false
+// false || false || false
+
+//let b=5;
+//if (b==5 && b>4 && b<5){
+//    console.log((true));}
+// Оператор НЕ  ! ( только с булевыми значениями)
+//console.log(! true);
+
+
